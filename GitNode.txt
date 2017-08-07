@@ -19,3 +19,15 @@
 	git diff
 10、查看状态
 	git status
+11、创建分支并切换分支
+	git checkout -b dev(创建一个dev分支)
+	等同于：
+	git branch dev
+	git checkout dev
+12、切换分支
+	git checkout dev(切换到dev分支)
+	git checkout master(切换到 master分支[主分支])
+13、合并分支
+	 git merge dev(将dev和master[主分支合并])
+14、删除分支
+	git branch -d dev(将dev分支删除)
